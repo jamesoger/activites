@@ -1,0 +1,58 @@
+//messages erreur et succes
+
+.msg {
+	padding: 0.5em 0.5em;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.material-icons {
+		margin-right: 0.5rem;
+	}
+
+	&.erreur {
+		background-color: lightcoral;
+		color: darkred;
+	}
+
+	&.succes {
+		background-color: lightgreen;
+		color: green;
+	}
+
+	
+	&.infos{
+		margin: 1rem;
+		position: relative;
+		right: 109px;
+		
+	}
+
+	&.ajout {
+		margin: 1rem;
+		position: relative;
+		right: 109px;
+	}
+
+	&.ajouter{
+		margin: 1rem;
+		position: relative;
+		right: 109px;
+	}
+
+	&.supprimer{
+		margin: 5rem;
+		position: relative;
+		right: 109px;
+	}
+
+	&.erreur_supprimer{
+		margin: 5rem;
+		position: relative;
+		right: 109px;
+	}
+
+	
+}

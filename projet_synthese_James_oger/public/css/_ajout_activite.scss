@@ -1,0 +1,106 @@
+/***************
+** AJOUT DES ACTIVITES
+***************/
+
+
+
+section.ajout_activite{
+    
+    position: relative;
+    top: 0px;
+    min-height: 80vh;
+    max-width: 800px;
+    margin: 80px auto;
+    background-color: rgba(78, 191, 197, 0.573);
+    box-shadow: 7px 5px 5px rgb(40, 38, 38);
+    h1{
+        font-size: 42px;
+        text-align: center;
+        padding-top: 20px;
+        color: rgb(87, 84, 84);
+         
+    }
+
+    h2{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 60px;
+        color:rgb(105, 103, 103);
+    }
+    h2.categorie{
+        margin-top: 9px;
+    }
+
+    .nom{
+        width: 500px;
+        height: 120px;
+        margin-left: 133px;
+    }
+
+    select{
+        width: 220px;
+        height: 35px;
+        margin-left: 290px;
+        font-size: 16px;
+        text-align: center;
+        
+    }
+    textarea{
+        box-shadow: 7px 5px 5px rgb(40, 38, 38);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    h2.media{
+        margin-top: 25px;
+    }
+
+    input[type="file"]{
+        width: 300px;
+        height: 50px;
+        margin-left: 342px;
+    }
+
+    .btn_submit{
+        cursor: pointer;
+        background-color: rgba(158, 173, 94, 0.596);
+        box-shadow: 10px 5px 5px rgb(40, 38, 38);
+        border-radius: 30px;
+        width: 230px;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 282px;
+        margin-bottom: 22px;
+        font-size: 18px;
+        
+    }
+    .btn_submit:hover{
+        box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75);
+    }
+
+    .retour{
+        width: 260px;
+        height: 45px;
+        background-color: rgba(49, 49, 49, 0.658);
+        box-shadow: 7px 5px 5px rgb(40, 38, 38);
+        margin: 40px 0px 26px 262px;
+        a{
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 16px;
+        }
+    }
+    .retour:hover{
+        box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75); 
+    }
+}
+
+//section messages
+
+section.messages_ajout{
+    max-width:800px;
+    margin-left: 660px;
+    margin-top: 30px;
+    
+   
+}
+

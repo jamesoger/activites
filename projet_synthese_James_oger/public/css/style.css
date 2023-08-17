@@ -1,0 +1,386 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+html, body {
+  margin: 0;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.accueil {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  height: 100%;
+  min-height: 100%;
+  background-image: url(../img/pexels-pixabay-414012.jpg);
+  background-size: cover;
+  background-position: top;
+}
+.accueil .titre {
+  max-height: 20px;
+  font-size: 5rem;
+  margin-left: 40px;
+}
+.accueil h1 {
+  margin-top: 10px;
+  font-size: 50px;
+  padding-left: 43px;
+  color: white;
+}
+.accueil .login_div {
+  margin-top: 220px;
+}
+.accueil .login_div section {
+  height: 450px;
+  width: 400px;
+  background-color: rgba(78, 191, 197, 0.486);
+  box-shadow: 7px 5px 5px rgb(40, 38, 38);
+  padding-left: 50px;
+}
+.accueil .login_div section a.pas_compte {
+  font-size: 18px;
+  color: black;
+  padding-left: 51px;
+}
+.accueil .login_div section input {
+  background-color: rgba(5, 96, 135, 0.288);
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: white;
+  width: 300px;
+  height: 33px;
+  margin: 15px;
+}
+.accueil .login_div .btn_submit {
+  background-color: rgba(158, 173, 94, 0.596);
+  box-shadow: 10px 5px 5px rgb(40, 38, 38);
+  cursor: pointer;
+  width: 300px;
+  height: 45px;
+  border-radius: 30px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 18px;
+}
+.accueil .login_div .btn_submit:hover {
+  box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75);
+  color: black;
+}
+
+/***************
+** PAGE DES ACTIVITÉS
+***************/
+body {
+  margin: 0px;
+  background-image: url(../img/pexels-nathan-cowley-1192671.jpg);
+  background-size: cover;
+  background-position: 100%;
+  background-attachment: fixed;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(32, 73, 100, 0.678);
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  color: white;
+}
+header h1 {
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.liste {
+  position: relative;
+  top: 70px;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0px auto;
+  background-color: rgba(209, 212, 212, 0.779);
+}
+.liste h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+.liste h3 {
+  text-align: center;
+}
+.liste img.image {
+  margin-left: 8rem;
+  box-shadow: 10px 5px 5px rgb(40, 38, 38);
+}
+.liste .supprimer {
+  background-color: rgba(32, 73, 100, 0.824);
+  box-shadow: 7px 5px 5px rgb(40, 38, 38);
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 288px;
+  padding-top: 12px;
+  text-decoration: none;
+  color: rgb(210, 210, 210);
+  display: block;
+}
+.liste .supprimer:hover {
+  box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75);
+}
+
+.boutons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 300px;
+  margin-left: 900px;
+}
+.boutons .creer {
+  position: relative;
+  bottom: 300px;
+  cursor: pointer;
+  background-color: rgba(32, 73, 100, 0.692);
+  box-shadow: 7px 5px 5px rgb(40, 38, 38);
+  width: 300px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 25px;
+}
+.boutons .creer a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+.boutons .creer:hover {
+  box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75);
+}
+.boutons .deconnecter {
+  cursor: pointer;
+  background-color: rgba(147, 219, 102, 0.836);
+  box-shadow: 7px 5px 5px rgb(40, 38, 38);
+  width: 300px;
+  height: 70px;
+  border-radius: 30px;
+}
+.boutons .deconnecter a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+.boutons .deconnecter:hover {
+  box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75);
+}
+
+.messages_activites {
+  max-width: 800px;
+  margin-left: 660px;
+  margin-top: 30px;
+}
+
+/***************
+** AJOUT DES ACTIVITES
+***************/
+section.ajout_activite {
+  position: relative;
+  top: 0px;
+  min-height: 80vh;
+  max-width: 800px;
+  margin: 80px auto;
+  background-color: rgba(78, 191, 197, 0.573);
+  box-shadow: 7px 5px 5px rgb(40, 38, 38);
+}
+section.ajout_activite h1 {
+  font-size: 42px;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(87, 84, 84);
+}
+section.ajout_activite h2 {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 60px;
+  color: rgb(105, 103, 103);
+}
+section.ajout_activite h2.categorie {
+  margin-top: 9px;
+}
+section.ajout_activite .nom {
+  width: 500px;
+  height: 120px;
+  margin-left: 133px;
+}
+section.ajout_activite select {
+  width: 220px;
+  height: 35px;
+  margin-left: 290px;
+  font-size: 16px;
+  text-align: center;
+}
+section.ajout_activite textarea {
+  box-shadow: 7px 5px 5px rgb(40, 38, 38);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+section.ajout_activite h2.media {
+  margin-top: 25px;
+}
+section.ajout_activite input[type=file] {
+  width: 300px;
+  height: 50px;
+  margin-left: 342px;
+}
+section.ajout_activite .btn_submit {
+  cursor: pointer;
+  background-color: rgba(158, 173, 94, 0.596);
+  box-shadow: 10px 5px 5px rgb(40, 38, 38);
+  border-radius: 30px;
+  width: 230px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 282px;
+  margin-bottom: 22px;
+  font-size: 18px;
+}
+section.ajout_activite .btn_submit:hover {
+  box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75);
+}
+section.ajout_activite .retour {
+  width: 260px;
+  height: 45px;
+  background-color: rgba(49, 49, 49, 0.658);
+  box-shadow: 7px 5px 5px rgb(40, 38, 38);
+  margin: 40px 0px 26px 262px;
+}
+section.ajout_activite .retour a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 16px;
+}
+section.ajout_activite .retour:hover {
+  box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75);
+}
+
+section.messages_ajout {
+  max-width: 800px;
+  margin-left: 660px;
+  margin-top: 30px;
+}
+
+/***************
+** CRÉATION DE COMPTE
+***************/
+body {
+  margin: 0px;
+}
+
+main.compte {
+  display: flex;
+  height: 100%;
+  min-height: 100%;
+  background-image: url(../img/pexels-pixabay-414012.jpg);
+  background-size: cover;
+  background-position: top;
+}
+main.compte h1 {
+  padding-bottom: 10px;
+  color: white;
+  font-size: 38px;
+}
+
+.formulaire {
+  margin-top: 40px;
+  background-color: rgba(78, 191, 197, 0.486);
+  box-shadow: 7px 5px 5px rgb(40, 38, 38);
+  max-width: 400px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+  margin-left: 20rem;
+}
+.formulaire input {
+  width: 350px;
+  height: 40px;
+  margin: 14px;
+  background-color: rgba(5, 96, 135, 0.288);
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: white;
+}
+.formulaire .btn_submit {
+  color: white;
+  background-color: rgba(158, 173, 94, 0.596);
+  box-shadow: 10px 5px 5px rgb(40, 38, 38);
+  margin-top: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+  width: 300px;
+  height: 45px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+.formulaire .btn_submit:hover {
+  box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75);
+  color: black;
+}
+
+.messages {
+  margin: 100px 0px 4px 320px;
+}
+
+.msg {
+  padding: 0.5em 0.5em;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.msg .material-icons {
+  margin-right: 0.5rem;
+}
+.msg.erreur {
+  background-color: lightcoral;
+  color: darkred;
+}
+.msg.succes {
+  background-color: lightgreen;
+  color: green;
+}
+.msg.infos {
+  margin: 1rem;
+  position: relative;
+  right: 109px;
+}
+.msg.ajout {
+  margin: 1rem;
+  position: relative;
+  right: 109px;
+}
+.msg.ajouter {
+  margin: 1rem;
+  position: relative;
+  right: 109px;
+}
+.msg.supprimer {
+  margin: 5rem;
+  position: relative;
+  right: 109px;
+}
+.msg.erreur_supprimer {
+  margin: 5rem;
+  position: relative;
+  right: 109px;
+}/*# sourceMappingURL=style.css.map */

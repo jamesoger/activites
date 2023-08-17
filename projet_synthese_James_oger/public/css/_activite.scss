@@ -1,0 +1,127 @@
+/***************
+** PAGE DES ACTIVITÉS
+***************/
+
+body{
+    margin: 0px;
+    background-image: url(../img/pexels-nathan-cowley-1192671.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed; 
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color:rgba(32, 73, 100, 0.678);
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    color: white;
+    h1{
+        text-align: center;
+        margin-bottom: 3px;
+    }
+
+}
+
+.liste{
+    
+    position: relative;
+    top: 70px;
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0px auto;
+    background-color: rgba(209, 212, 212, 0.779);
+    
+    h2{
+        text-align: center;
+        text-decoration: underline;
+    }
+    h3{
+        text-align: center;
+    }
+    img.image{
+        margin-left: 8rem;
+        box-shadow: 10px 5px 5px rgb(40, 38, 38);
+    }
+
+    
+    .supprimer{
+        background-color: rgba(32, 73, 100, 0.824);
+        box-shadow: 7px 5px 5px rgb(40, 38, 38);
+        cursor: pointer;
+        width: 200px;
+        height: 40px;
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 288px;
+        padding-top: 12px;
+        text-decoration: none;
+        color: rgb(210, 210, 210);
+        display: block;  
+        
+    }
+
+    .supprimer:hover{
+        box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75);
+    }
+   
+
+}
+.boutons{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom:300px;
+    margin-left:900px;
+     
+       .creer{
+           position: relative;
+           bottom: 300px;
+           cursor: pointer;
+           background-color: rgba(32, 73, 100, 0.692);
+           box-shadow: 7px 5px 5px rgb(40, 38, 38);
+           width: 300px;
+           height: 70px;
+           border-radius: 30px;
+           margin-right: 25px;
+           
+           a{
+            font-size: 24px;
+            text-decoration: none;
+            color: black;
+           }
+       }
+       .creer:hover{
+        box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75);
+       }
+       .deconnecter{
+          
+           cursor: pointer;
+           background-color: rgba(147, 219, 102, 0.836);
+           box-shadow: 7px 5px 5px rgb(40, 38, 38);
+           width: 300px;
+           height: 70px;
+           border-radius: 30px;
+           
+           
+           a{
+            font-size: 24px;
+            text-decoration: none;
+            color: black;
+           }
+       }
+
+       .deconnecter:hover{
+        box-shadow: inset 4px 4px 5px 1px rgba(50, 50, 50, 0.75);
+       }
+}
+
+.messages_activites{
+    max-width:800px;
+    margin-left: 660px;
+    margin-top: 30px;
+}
+
+
